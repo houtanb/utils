@@ -833,6 +833,30 @@ OAI_MODEL_RUNS: list[ModelRun] = [
         },
     ),
     _model_run(
+        model_run_key="gpt-5.6-sol-run-variant-01",
+        slug="gpt-5.6-sol-standard-medium-web-search",
+        model_key="gpt-5.6-sol",
+        options={
+            "reasoning": {
+                "mode": "standard",
+                "effort": "medium",
+            },
+            "tools": [{"type": "web_search"}],
+        },
+    ),
+    _model_run(
+        model_run_key="gpt-5.6-sol-run-variant-02",
+        slug="gpt-5.6-sol-pro-max-web-search",
+        model_key="gpt-5.6-sol",
+        options={
+            "reasoning": {
+                "mode": "pro",
+                "effort": "max",
+            },
+            "tools": [{"type": "web_search"}],
+        },
+    ),
+    _model_run(
         model_run_key="o3-2025-04-16-run-variant-01",
         slug="o3-2025-04-16",
         model_key="o3-2025-04-16",
