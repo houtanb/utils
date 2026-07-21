@@ -650,6 +650,24 @@ GOOGLE_MODEL_RUNS: list[ModelRun] = [
             "tools": [{"googleSearch": {}}],
         },
     ),
+    _model_run(
+        model_run_key="gemini-3.6-flash-run-variant-01",
+        slug="gemini-3.6-flash-medium-web-search",
+        model_key="gemini-3.6-flash",
+        options={
+            "thinking_config": {"thinking_level": "medium"},
+            "tools": [{"googleSearch": {}}, {"urlContext": {}}],
+        },
+    ),
+    _model_run(
+        model_run_key="gemini-3.6-flash-run-variant-02",
+        slug="gemini-3.6-flash-high-web-search",
+        model_key="gemini-3.6-flash",
+        options={
+            "thinking_config": {"thinking_level": "high"},
+            "tools": [{"googleSearch": {}}, {"urlContext": {}}],
+        },
+    ),
 ]
 
 
