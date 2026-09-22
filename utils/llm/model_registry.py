@@ -589,6 +589,10 @@ OPENAI_MODELS: Final[list[Model]] = [
         models_dev_reference=ModelsDevReference(provider_id="openai", model_id="gpt-6-astra"),
     ),
     openai_model(
+        model_key="gpt-6-luna",
+        models_dev_reference=ModelsDevReference(provider_id="openai", model_id="gpt-6-luna"),
+    ),
+    openai_model(
         model_key="gpt-6-sol",
         models_dev_reference=ModelsDevReference(provider_id="openai", model_id="gpt-6-sol"),
     ),

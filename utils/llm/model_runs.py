@@ -1090,6 +1090,22 @@ OAI_MODEL_RUNS: list[ModelRun] = [
         },
     ),
     _model_run(
+        model_run_key="gpt-6-luna-run-variant-01",
+        slug="gpt-6-luna-standard-high-web-search",
+        model_key="gpt-6-luna",
+        options={
+            "reasoning": {
+                "mode": "standard",
+                "effort": "high",
+            },
+            "tools": [
+                {
+                    "type": "web_search",
+                },
+            ],
+        },
+    ),
+    _model_run(
         model_run_key="gpt-6-sol-run-variant-01",
         slug="gpt-6-sol-standard-high-web-search",
         model_key="gpt-6-sol",
