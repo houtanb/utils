@@ -145,6 +145,7 @@ HISTORICAL_MODEL_RUN_KEYS = (
     "grok-4.5-run-variant-01",
     "grok-4.5-run-variant-02",
     "grok-4.6-run-variant-01",
+    "grok-4.7-run-variant-01",
     "grok-beta-run-variant-01",
     "kimi-k2-instruct-0905-run-variant-01",
     "kimi-k2-instruct-run-variant-01",
