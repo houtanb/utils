@@ -1013,6 +1013,13 @@ ANTHROPIC_MODELS: Final[list[Model]] = [
             model_id="claude-sonnet-5-5",
         ),
     ),
+    anthropic_model(
+        model_key="claude-haiku-5-5",
+        models_dev_reference=ModelsDevReference(
+            provider_id="anthropic",
+            model_id="claude-haiku-5-5",
+        ),
+    ),
 ]
 
 # xAI models: https://console.x.ai/ -> API Models

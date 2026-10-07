@@ -346,6 +346,25 @@ ANTHROPIC_MODEL_RUNS: list[ModelRun] = [
         options={"max_tokens": 4096},
     ),
     _model_run(
+        model_run_key="claude-haiku-5-5-run-variant-01",
+        slug="claude-haiku-5-5-high-web-search-128k",
+        model_key="claude-haiku-5-5",
+        options={
+            "max_tokens": 128000,
+            "output_config": {"effort": "high"},
+            "tools": [
+                {
+                    "type": "web_search_20260318",
+                    "name": "web_search",
+                },
+                {
+                    "type": "web_fetch_20260318",
+                    "name": "web_fetch",
+                },
+            ],
+        },
+    ),
+    _model_run(
         model_run_key="claude-opus-4-1-20250805-run-variant-01",
         slug="claude-opus-4-1-20250805",
         model_key="claude-opus-4-1-20250805",

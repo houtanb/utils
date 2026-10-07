@@ -36,6 +36,7 @@ HISTORICAL_MODEL_RUN_KEYS = (
     "claude-fable-5-run-variant-02",
     "claude-haiku-4-5-20251001-run-variant-01",
     "claude-haiku-4-5-20251001-run-variant-02",
+    "claude-haiku-5-5-run-variant-01",
     "claude-opus-4-1-20250805-run-variant-01",
     "claude-opus-4-20250514-run-variant-01",
     "claude-opus-4-5-20251101-run-variant-01",
